@@ -6460,3 +6460,48 @@ header.scrolled {
 .site-header .site-nav.nav-open a {
   color: #ffffff;
 }
+
+/* Fix full-width website layout */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+}
+
+main {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.site-header,
+.hero-signature,
+.philosophy-luxury,
+.developments-luxe,
+.testimonials-luxe,
+.journey-luxe,
+.ongoing-section,
+.why-vasudha,
+.trust-legacy,
+.contact-luxe,
+.vasudha-footer {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
